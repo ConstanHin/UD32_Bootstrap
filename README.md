@@ -2,7 +2,7 @@
 
 ## Boostrap con CDN
 
-Añadimos los archivos css y js de Bootsrap en el <head> de los archivos .html utilizando los CDN.
+Añadimos los archivos css y js de Bootsrap en el head de los archivos .html utilizando los CDN.
   
   ```
 <head>
