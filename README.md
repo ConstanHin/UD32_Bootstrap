@@ -10,4 +10,3 @@ Definido index.html como pagina principal. Contiene la lista de enlaces hacia lo
 |Archivos: |
 |----------|
 |"/page/lista.html"|
-|"/css/lista.css/"|
