@@ -30,3 +30,14 @@ Definido index.html como pagina principal. Contiene la lista de enlaces hacia lo
 |Archivos: |
 |----------|
 |"/page/lista.html"|
+
+## Ejercicios
+
+## UD32_5 Lista usuarios
+
+![image](https://user-images.githubusercontent.com/67373492/171494194-39649437-acdd-4c58-b09f-f7c39dd7f59b.png)
+
+## UD32_8 Calculadora
+
+![image](https://user-images.githubusercontent.com/67373492/171494053-44cce67d-830f-4c40-a31e-7175fd3f4f6a.png)
+
