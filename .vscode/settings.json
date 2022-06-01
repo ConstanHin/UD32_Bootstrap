@@ -7,9 +7,6 @@
         "panel.background": "#dcc",
         "sideBar.background": "#e2dfda",
         "gitDecoration.modifiedResourceForeground": "#a56300",
-        "terminal.ansiBrightYellow": "#915e00",
-        "activityBar.background": "#5C0E20",
-        "titleBar.activeBackground": "#81142D",
-        "titleBar.activeForeground": "#FEFBFC"
+        "terminal.ansiBrightYellow": "#915e00"
     }
 }
