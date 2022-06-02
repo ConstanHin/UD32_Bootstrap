@@ -1,0 +1,23 @@
+
+.articulo {
+    height:auto;
+    padding:100px;
+    margin-top:  20px;
+    background:#d6d8dc;
+}
+
+
+h3 {
+    font-size: 50px;
+    text-align: justify;
+    
+}
+
+.btn-primary{
+    margin-top: 20px;
+    
+}
+
+p{
+    font-size: 25px;
+}
