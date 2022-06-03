@@ -8,5 +8,9 @@
         "sideBar.background": "#e2dfda",
         "gitDecoration.modifiedResourceForeground": "#a56300",
         "terminal.ansiBrightYellow": "#915e00"
-    }
+    },
+    "workbench.activityBar.visible": true,
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.iconTheme": "material-icon-theme"
 }
