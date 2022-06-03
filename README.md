@@ -25,12 +25,6 @@ Añadimos los archivos css y js de Bootsrap en el head de los archivos .html uti
 ### index.html
 Definido index.html como pagina principal. Contiene la lista de enlaces hacia los ejercicios, los cuales se guardan en la carpeta "page" donde solo habrán archivos .html.
 
-## UD32_5 Lista usuarios
-
-|Archivos: |
-|----------|
-|"/page/lista.html"|
-
 ## Ejercicios
 
 ## UD32_5 Lista usuarios
