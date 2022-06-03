@@ -1,0 +1,21 @@
+body{
+    
+background-image: url("/img/Fondo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+      .btn-color {
+    background-color: #0077ff;
+   
+
+}
+h1{
+    color: rgb(240, 238, 235);
+}
+h4{
+    color: rgb(240, 238, 235);
+}
+.cardbody-color {
+    background-color: #ffffff;
+}
+
