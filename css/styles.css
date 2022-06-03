@@ -55,3 +55,7 @@ body#lista {
 #lista #linkInicio:hover {
     background-color: #555;
 }
+
+.gap-1 {
+    gap: 1rem;
+}
