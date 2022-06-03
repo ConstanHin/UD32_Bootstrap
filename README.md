@@ -1,5 +1,8 @@
 # UD32_Bootstrap
 
+Se puede acceder a los ejercicios en el siguiente enlace :
+https://constanhin.github.io/UD32_Bootstrap/
+
 ## Boostrap con CDN
 
 Añadimos los archivos css y js de Bootsrap en el head de los archivos .html utilizando los CDN.
