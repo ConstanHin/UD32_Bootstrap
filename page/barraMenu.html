@@ -2,103 +2,100 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Bootstrap css / js with popper-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script>
-  <link rel="stylesheet" href="../css/styleMenu.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/styleMenu.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bootstrap Barra Menú</title>
 </head>
 
 <body class="cuerpo">
 
-  <nav class="barrainfo">
-    <img class="tel" src="../img/telf.png" width="20px" height: alt="">
-    <a class="navbar-brand" href="#">+ 84123 456 999</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <img class="mail" src="../img/avion.png" width="20px" height: alt="">
-    <a class="navbar-brand" href="#"> name@gmail.com</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <img class="maps" src="../img/maps.png" width="20px" height: alt="">
-    <a class="navbar-brand" href="#"> 123 street CH city</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <nav class="d-flex">
-
-      <a class="text-control me-2" href="#">Sing Up</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <a class="navbar-text" href="#">Login</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-    </nav>
-
-  </nav>
-
-
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- barra menu contacto -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="javascript:void(0)"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="javascript:void(0)"><img class="img" src="../img/telf.png" alt="" />+84123 456
+              999</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="javascript:void(0)"><img class="img" src="../img/avion.png" />name@gmail.com</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="javascript:void(0)"><img class="img" src="../img/maps.png" /> street
+              123</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-secondary" type="button">Login</button>
+          &nbsp;
+          <button class="btn btn-secondary" type="button">Register</button>
         </form>
       </div>
     </div>
   </nav>
+
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="nav1">Utheme</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+        aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Watching new movies</a></li>
+              <li><a class="dropdown-item" href="#">Listening Music</a></li>
+              <li><a class="dropdown-item" href="#">Play new Games</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+
+      <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+          <img src="../img/fb.png" width="30px" alt="">
+        </div>
+        <div class="p-2 bd-highlight">
+          <img src="../img/tw.png" width="30px" alt="">
+        </div>
+        <div class="p-2 bd-highlight">
+          <img src="../img/YT.png" width="30px" alt="">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid" id="bodycontainer">
+
+    <h1>Ejercicio Barras de Navegacion!</h1><br>
+    <img class="foto" src="../img/bootstrap-icons.png" alt="">
+
+  </div>
 </body>
 
 </html>
